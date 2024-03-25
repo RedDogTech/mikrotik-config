@@ -1,6 +1,6 @@
 # Mikrotik Configs
 
-A collection of scripts that i use to configure mikrotik routers and switches.
+A collection of scripts that are used to configure mikrotik routers and switches.
 
 # [Vlans](scripts/vlans.rsc)
 
