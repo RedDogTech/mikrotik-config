@@ -7,6 +7,7 @@ add interface=bridge name=vlan_mgnt vlan-id=99
 /interface list
 add name=WAN
 add name=MGMT
+add name=VLAN
 
 /ip pool
 add name=pool_mgmt ranges=192.168.0.10-192.168.0.254
