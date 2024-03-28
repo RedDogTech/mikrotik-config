@@ -17,9 +17,6 @@ add address-pool=pool_mgmt interface=vlan_mgnt name=mgmt_dhcp
 /interface bridge port
 add bridge=bridge frame-types=admit-only-untagged-and-priority-tagged interface=ether2 pvid=99
 
-/ip neighbor discovery-settings
-set discover-interface-list=!dynamic
-
 /interface bridge vlan
 add bridge=bridge tagged=bridge vlan-ids=99
 
